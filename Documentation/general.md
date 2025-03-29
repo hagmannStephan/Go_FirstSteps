@@ -100,3 +100,23 @@ The output would look like this:
 > i has value: Hello and type: string
 > j has value: 15 and type: int
 ```
+
+## Data Types
+### Boolean
+```go
+	var a bool = true    // Boolean
+```
+### Integer
+There are multiple integer types, if you need a specific type, you can check them out [here](https://www.w3schools.com/go/go_integer_data_type.php). However `int` will do it in pretty much every case.
+```go
+	var b int = -5       // Integer
+```
+### Float
+The same goes for floats, check out the specific types [here](https://www.w3schools.com/go/go_float_data_type.php).
+```go
+	var c float32 = 3.14 // Floating point number
+```
+### String
+```go
+	var d string = "Hi!" // String
+```
